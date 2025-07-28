@@ -22,7 +22,7 @@ const RegisterPage = () => {
         throw new Error("패스워드를 입력해주세요.");
       }
       const response = await api.post('/user',{name,email,password});
-      if (response.status == 200) {
+      if (response.status === 200) {
         navigate('/login');
       } else{
         throw new Error(response.data.err);

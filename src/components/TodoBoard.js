@@ -1,4 +1,4 @@
-import React from "react";import TodoItem from "./TodoItem";
+import TodoItem from "./TodoItem";
 
 const TodoBoard = ({ todoList, deleteItem, toggleComplete }) => {
   return (

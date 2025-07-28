@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import TodoBoard from "../components/TodoBoard";
 import api from "../utils/api";
 import Row from "react-bootstrap/Row";
